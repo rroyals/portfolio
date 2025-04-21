@@ -14,30 +14,16 @@ const projects: {
   image: string;
 }[] = [
   {
-    title: 'Hystruct',
-    href: 'https://www.hystruct.com',
-    description: 'Scrape structured data from the web with AI',
-    image: '/hystruct.png',
+    title: 'RML OCaml Interpreter',
+    href: 'https://drive.google.com/file/d/1ILJpRmq-MzcsY8Te-oNDPdCMvwbMvL_D/view?usp=drive_link',
+    description: 'Implemented interpreter for non-trivial programming language (RML) implemented in OCaml',
+    image: './hystruct.png',
   },
   {
-    title: 'Linky',
-    href: 'https://lin.ky',
-    description:
-      'A super simple way to create beautiful personal landing pages.',
-    image: '/linky.png',
-  },
-  {
-    title: 'FlagDB',
-    href: 'https://flagdb.com',
-    description:
-      'A personal project to build a database of flags from around the world',
-    image: '/flagdb.png',
-  },
-  {
-    href: 'https://github.com/alexpate/awesome-design-systems',
-    title: 'Awesome Design Systems',
-    description: 'A curated list of design systems',
-    image: '/awesome-design-systems.png',
+    title: 'TCP-Lite',
+    href: 'https://github.com/rroyals/appdev',
+    description: 'Developed scalable server and client solution to securely process users’ requests using sockets, threading, and SSL',
+    image: './linky.png',
   },
 ];
 
@@ -56,10 +42,8 @@ export default async function Home() {
           </span>
         </h1>
         <p className="text-slate-700 text-lg md:text-xl leading-normal">
-          I work with leading-edge companies to create exceptional products. I
-          most recently worked with MoonPay to help make web3 accessible. Before
-          that, I built personal and business banking products for millions of
-          customers at Monzo.
+        I am currently in my fourth year at Cornell University in the College of Engineering.
+        After graduation, I will be working as a software engineer, at Millennium Management.
         </p>
         <Link
           href="/info"

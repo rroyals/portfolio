@@ -22,44 +22,37 @@ const JetBrainsMonoFont = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Alex Pate - Product Engineer',
+  title: 'Brendan Royals',
   description:
-    'Alex Pate is a product engineer based in Milan, working somewhere on the boundary between design and code.',
-  twitter: {
-    card: 'summary_large_image',
-    creator: '@alexjpate',
-    images: ['/og.png'],
-    title: 'Alex Pate - Product Engineer',
-  },
+    'Brendan Royals is a software engineer based in New York.',
   openGraph: {
     type: 'website',
-    title: 'Alex Pate - Product Engineer',
+    title: 'Brendan Royals',
     description:
-      'Alex Pate is a product engineer based in Milan, working somewhere on the boundary between design and code.',
+      'Brendan Royals is a software engineer based in New York.',
     images: [
       {
         url: '/og.png',
         width: 1200,
         height: 630,
-        alt: 'Alex Pate - Product Engineer',
+        alt: 'Brendan Royals',
       },
     ],
-    siteName: 'Alex Pate - Product Engineer',
+    siteName: 'Brendan Royals',
   },
-  metadataBase: new URL('https://alexpate.com'),
+  metadataBase: new URL('https://rroyals.github.io/portfolio/'),
 };
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Person',
-  name: 'Alex Pate',
+  name: 'Brendan Royals',
   image: 'https://alexpate.com/avatar.jpeg',
-  url: 'https://alexpate.com',
-  jobTitle: 'Product Engineer',
+  url: 'https://rroyals.github.io/portfolio/',
+  jobTitle: 'Software Engineer',
   sameAs: [
-    'https://twitter.com/alexjpate',
-    'https://www.github.com/alexpate',
-    'https://www.linkedin.com/in/alexjpate/',
+    'https://www.github.com/rroyals',
+    'https://www.linkedin.com/in/brendan-royals/',
   ],
 };
 

@@ -5,10 +5,8 @@ const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
-
-  assetPrefix: isProd ? '/portfolio/' : '',
-  basePath:   isProd ? '/portfolio'  : '',
-
+  output: 'export',
+  images: { unoptimized: true },
   redirects: async () => {
     return [
       {

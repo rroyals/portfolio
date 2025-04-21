@@ -10,72 +10,39 @@ const experience: {
   logo: string;
 }[] = [
   {
-    company: 'Mainframe',
-    role: 'Design Engineer',
-    date: 'November 2024 → Present',
-    logo: '/mainframe-logo.jpg',
+    company: 'Millennium Management',
+    role: 'Software Engineer',
+    date: 'July 2025 → Present',
+    logo: './mainframe-logo.jpg',
   },
   {
-    company: 'MoonPay',
-    role: 'Senior Front-End Engineer',
-    date: 'April 2022 → August 2024',
-    logo: '/moonpay-logo.jpg',
+    company: 'Millennium Management',
+    role: 'Software Engineer Intern',
+    date: 'June 2024 → August 2024',
+    logo: './mainframe-logo.jpg',
   },
   {
-    company: 'Monzo',
-    role: 'Web Engineer / Product Designer',
-    date: 'May 2019 → November 2021',
-    logo: '/monzo-logo.png',
+    company: 'Cornell University',
+    role: 'Undergraduate Research Assistant',
+    date: 'August 2024 → December 2024',
+    logo: './moonpay-logo.jpg',
   },
   {
-    company: 'Kalo',
-    role: 'UI Engineer',
-    date: 'February 2017 → May 2019',
-    logo: '/kalo-logo.jpg',
-  },
-  {
-    company: 'Pusher',
-    role: 'Front-end Developer',
-    date: 'September 2015 → January 2017',
-    logo: '/pusher-logo.jpg',
+    company: 'Babylon Micro-Farms',
+    role: 'Machine Learning Engineer Intern',
+    date: 'June 2023 → August 202',
+    logo: './monzo-logo.png',
   },
 ];
 
 export default async function InfoPage() {
   return (
     <main className="px-4 md:px-0">
-      <PageHeader title="Information" />
+      <PageHeader title="Contact Information" />
       <section className="pb-8 prose prose-lg">
         <p>
-          Hi there, I&apos;m Alex. I build my own products, along side working
-          with some amazing companies to help them build theirs.
-        </p>
-        <p>
-          Most recently, I was working with MoonPay to help build the future of
-          payments. Before that, I was working with Monzo - the fastest growing
-          bank in the UK. Originally joining as a product designer, I
-          transitioned into a web engineer role where I worked with a variety of
-          teams to help rethink modern day banking for their millions of
-          customers.
-        </p>
-
-        <p>
-          I also worked with Kalo (which eventually became Polywork) where I was
-          the first UI Engineering hire. My responsibilities included building
-          out the design system as well as ensuring a high bar of design quality
-          across the product.
-        </p>
-
-        <p>
-          I&apos;ve always bounced somewhere between design and engineering,
-          however the common thread has always been my love for building things
-          that people love to use.
-        </p>
-
-        <p>
-          If you&apos;re interested in working together, feel free to reach out
-          to me here:{' '}
-          <Link href="mailto:hey@alexpate.com">hey@alexpate.com</Link>.
+          I can be reached via email at {' '}
+          <Link href="mailto:bhr53@cornell.edu">bhr53[at]cornell[dot]edu</Link>.
         </p>
       </section>
 
