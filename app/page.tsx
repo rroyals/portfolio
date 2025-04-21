@@ -17,13 +17,13 @@ const projects: {
     title: 'RML OCaml Interpreter',
     href: 'https://drive.google.com/file/d/1ILJpRmq-MzcsY8Te-oNDPdCMvwbMvL_D/view?usp=drive_link',
     description: 'Implemented interpreter for non-trivial programming language (RML) implemented in OCaml',
-    image: './hystruct.png',
+    image: './rml.png',
   },
   {
     title: 'TCP-Lite',
     href: 'https://github.com/rroyals/appdev',
     description: 'Developed scalable server and client solution to securely process users’ requests using sockets, threading, and SSL',
-    image: './linky.png',
+    image: './tcp.png',
   },
 ];
 

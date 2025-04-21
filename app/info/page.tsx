@@ -13,25 +13,25 @@ const experience: {
     company: 'Millennium Management',
     role: 'Software Engineer',
     date: 'July 2025 → Present',
-    logo: './mainframe-logo.jpg',
+    logo: './millennium.png',
   },
   {
     company: 'Millennium Management',
     role: 'Software Engineer Intern',
     date: 'June 2024 → August 2024',
-    logo: './mainframe-logo.jpg',
+    logo: './millennium.png',
   },
   {
     company: 'Cornell University',
     role: 'Undergraduate Research Assistant',
     date: 'August 2024 → December 2024',
-    logo: './moonpay-logo.jpg',
+    logo: './cornell.png',
   },
   {
     company: 'Babylon Micro-Farms',
     role: 'Machine Learning Engineer Intern',
     date: 'June 2023 → August 202',
-    logo: './monzo-logo.png',
+    logo: './babylon.png',
   },
 ];
 
