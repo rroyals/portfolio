@@ -83,10 +83,29 @@ export default function RootLayout({
           'bg-slate-50'
         )}
       >
+        
         <div className="max-w-2xl lg:max-w-xl mx-auto">
           <header className="pt-8 md:pt-16 pb-16 px-4 md:px-0 flex justify-between">
-            <p></p>
+            <Link href="/">
+              <h1 className="text-base font-mono font-semibold text-slate-950">
+                br
+              </h1>
+            </Link>
+            <nav className="flex gap-4">
+              <Link
+                className="text-950 text-sm tracking-tighter font-mono font-semibold"
+                href="/contact"
+              >
+                Contact
+              </Link>
+            </nav>
           </header>
+        </div>
+
+        <div className="max-w-2xl lg:max-w-xl mx-auto">
+        <header className="pt-2 md:pt-4 pb-2 px-4 md:px-0 flex justify-between items-center">
+          <p></p>
+        </header>
           {children}
           <footer className="px-4 md:px-0 border-t border-slate-200 py-8 text-slate-700 font-mono text-xs tracking-tight flex justify-between">
             <p>

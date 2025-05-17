@@ -9,23 +9,18 @@ const contact: {
 }[] = [
   {
     method: 'Email',
-    link: 'mailto:hey@alexpate.com',
-    label: 'hey@alexpate.com',
-  },
-  {
-    method: 'Twitter',
-    link: 'https://twitter.com/alexjpate',
-    label: '@alexjpate',
+    link: 'mailto:bhr53@cornell.edu',
+    label: 'bhr53@cornell.edu',
   },
   {
     method: 'GitHub',
-    link: 'https://github.com/alexpate',
-    label: 'git/alexpate',
+    link: 'https://github.com/rroyals',
+    label: 'git/rroyals',
   },
   {
     method: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/alexjpate/',
-    label: 'in/alexjpate',
+    link: 'https://www.linkedin.com/in/brendan-royals/',
+    label: 'in/brendan-royals',
   },
 ];
 export default async function InfoPage() {
@@ -35,8 +30,7 @@ export default async function InfoPage() {
       <section className="pb-8">
         <p className="text-lg mb-4">
           If you&apos;d like to get in touch, you can reach me using the
-          following methods. Please note, that I&apos;m not currently available
-          for freelance projects.
+          following methods.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

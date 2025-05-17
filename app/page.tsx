@@ -12,18 +12,21 @@ const projects: {
   title: string;
   description: string;
   image: string;
+  keywords?: string[];
 }[] = [
   {
     title: 'RML OCaml Interpreter',
     href: 'https://drive.google.com/file/d/1ILJpRmq-MzcsY8Te-oNDPdCMvwbMvL_D/view?usp=drive_link',
     description: 'Implemented interpreter for non-trivial programming language (RML) implemented in OCaml',
     image: './rml.png',
+    keywords: ['OCaml', 'Interpreter', 'IPC/Named pipes'],
   },
   {
     title: 'TCP-Lite',
     href: 'https://github.com/rroyals/appdev',
     description: 'Developed scalable server and client solution to securely process users’ requests using sockets, threading, and SSL',
     image: './tcp.png',
+    keywords: ['C++', 'Sockets', 'SSL', 'Multithreading'],
   },
 ];
 
@@ -45,15 +48,20 @@ export default async function Home() {
         I am currently in my fourth year at Cornell University in the College of Engineering.
         After graduation, I will be working as a software engineer, at Millennium Management.
         </p>
-        <Link
-          href="/info"
-          className="group bg-slate-950 hover:bg-slate-800 transition-colors inline-block mt-8 font-mono text-xs font-semibold rounded-full px-8 py-3 text-white"
-        >
-          More Information{' '}
-          <span className="inline-block group-hover:translate-x-2 transition-transform">
-            →
-          </span>
-        </Link>
+        <div className="flex gap-4 flex-wrap">
+          <Link
+            href="/info"
+            className="group bg-slate-950 hover:bg-slate-800 transition-colors inline-block mt-8 font-mono text-xs font-semibold rounded-full px-8 py-3 text-white"
+          >
+            More Information
+          </Link>
+          <Link
+            href="/resume.pdf"
+            className="group bg-slate-950 hover:bg-slate-800 transition-colors inline-block mt-8 font-mono text-xs font-semibold rounded-full px-8 py-3 text-white"
+          >
+            Resume
+          </Link>
+        </div>
       </section>
 
       <section className="pb-16">
@@ -93,6 +101,19 @@ export default async function Home() {
                 <h3 className="text-slate-500 text-base">
                   {project.description}
                 </h3>
+
+                {project.keywords && (
+                  <div className="mt-4 flex flex-wrap gap-2">
+                    {project.keywords.map((kw) => (
+                      <span
+                        key={kw}
+                        className="bg-slate-200 text-slate-800 text-xs font-mono px-2 py-1 rounded-full"
+                      >
+                        {kw}
+                      </span>
+                    ))}
+                  </div>
+                )}
               </WrappingComponent>
             );
           })}
