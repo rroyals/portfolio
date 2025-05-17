@@ -46,7 +46,7 @@ export default async function Home() {
         </h1>
         <p className="text-slate-700 text-lg md:text-xl leading-normal">
         I am currently in my fourth year at Cornell University in the College of Engineering.
-        After graduation, I will be working as a software engineer, at Millennium Management.
+        After graduation, I will be working as a software engineer, at Millennium Management, LLC.
         </p>
         <div className="flex gap-4 flex-wrap">
           <Link
